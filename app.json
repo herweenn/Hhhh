@@ -1,0 +1,34 @@
+{
+	"name": "herWeN",
+	"description": "A TeleGramBot to send messages secretly!",
+	"logo": "https://telegra.ph/file/5116db79f852db113875c.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/Source-Ze/views",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "6985066804:AAGJwY9XXbitwUYKr-dqBK8Qtm-rkNFlwug",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "688506e29b7a58b24eae6823f73d372a",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "24711840",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
